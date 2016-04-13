@@ -1,0 +1,108 @@
+
+
+	A. Abstraction ( Interface / Front-End / What you see )
+
+	   why we need ?
+	   
+       --> dependency obj shud easy to use for dependent
+	   --> easy to learn
+	   --> for loose-coupling
+	   
+	B. Encapsulation ( Implementation / Back-end )   
+	
+	   why we need ?
+	   
+	   --> to hide complexity
+	   --> for security
+	   
+	 -------------------------------------------------------
+	 
+	 how to implement in Java ?
+	 
+	 --> using access-specifiers and packages
+	 --> using accessor-methods ( set/get )
+	 --> using class and interfaces
+	 --> using proper OO design -patterns
+	 
+	 --------------------------------------------------------  
+	 
+	 Access-specifier(s)
+	 ------------------
+	 
+	 public , private , protected , (  )
+	 
+	 
+	 e.g
+	 
+	 proj
+	 
+	 
+	    p1 
+	    
+	      A
+	      B  extends A
+	      C
+	    
+	    p2
+	    
+	      D extends A
+	      E
+	 
+		---------------------------------------------------------------------
+		 same-package                         |  other-package
+		--------------------------------------------------------------------- 
+		 same-class | sub-class | other-class | sub-class | other-class
+		---------------------------------------------------------------------
+
+ private    Y           N             N             N           N
+ (     )    Y           Y             Y             N           N
+ protected  Y           y             y             y           N
+ public     Y           y             y             y           Y
+
+ -------------------------------------------------------------------------------
+
+
+
+   using Accessor-Methods 
+   ----------------------
+   
+   
+
+   --> keep all obj properties as private
+   --> provide required set/get methods ( accessors)
+       with proper validation.
+
+ -----------------------------------------------------------------
+ 
+ 
+  using class and interfaces
+  ---------------------------
+  
+  
+  obj
+  
+     class     --> implementation / encapsulation
+     interface --> interface / asbtraction
+  
+  
+  e.g
+  
+     Car   --> move()
+     Wheel --> rotate()
+  -------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  	 
+	 
+	 
+	 
+	 
+	 
+	 
