@@ -1,0 +1,70 @@
+
+
+exception:-
+-----------
+
+un-expected program flow disturb 
+
+some reason for exceptions
+----------------
+
+--> divide by zero
+--> nullpointer 
+--> file not found
+--> sql exceptions
+--> IO
+--> networking...
+
+...................
+
+ 
+ what happen if exception happen ?
+ 
+ by default , JRE will terminate whole process.
+ 
+ soln .
+ 
+  by handling , need to continue execution.
+ 
+ -----------------------------------------
+ 
+ 
+ advantages of exception handling:
+ -------------------------------
+ 
+  -> Separating Error-Handling Code from "Regular" Code
+  -> Propagating Errors Up the Call Stack
+  -> Grouping and Differentiating Error Types
+ 
+ 
+ ----------------------------------------------
+ 
+ How to handle Exceptions?
+ 
+ using 
+ 
+     try,catch,finally
+     throws
+     thorw
+ 
+-------------------------------------------------
+
+imp notes:
+
+
+    -> when code fails , either JRE or you need to throw exception(s)( object )
+    -> exception-obj shud contains complete details about failure.
+    -> our code shud catch that execption-obj, else JRE will catch-it.
+
+--------------------------------------------------------------
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
