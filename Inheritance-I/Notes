@@ -1,0 +1,44 @@
+
+
+ Inheritance
+ -------------
+ 
+ inherting common state and behav from more generalized class
+ to specialized class's objs.
+ 
+ adv
+ 
+ --> re-use
+ --> easy to extend with new-features
+
+ ---------------------------------------------
+ 
+ when to use inheritance ?
+ 
+ if 2 classes having 'IS-A' r/s.
+ 
+ e.g
+ 
+ Human is LivingThing
+ JavaEmployee is Employee
+ 
+ ------------------------------------------------
+ 
+ super/base/parent/generalized
+ sub  /derived / child / specialized
+ 
+ -----------------------------------------------
+ 
+ types of inheritance
+
+ a. single-level  ( P   <---- C )
+ b. multi-level   ( P   <---- PC <---- C)
+ c. multiple      ( P1,P2 <--- C ) ( java wont support )     
+ 
+ -----------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 

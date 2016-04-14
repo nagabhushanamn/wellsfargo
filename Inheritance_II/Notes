@@ -1,0 +1,27 @@
+
+
+Override
+------------
+
+re-implementing base's class behav with different-logic in 
+child's class
+
+	coding rules
+	------------
+	
+	Must be same
+	
+	 --> method-name
+	 --> number | order | type of args
+	 --> return-type
+	 
+    may different
+    
+    --> access specifiers
+    
+        condn : shud not reduce visibility
+        
+        private --> default --> protected --> public
+        
+   ------------------------------------------------     	 
+	 

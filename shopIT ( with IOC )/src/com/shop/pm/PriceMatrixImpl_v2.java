@@ -1,6 +1,6 @@
 package com.shop.pm;
 
-public class PriceMatrixImpl_v2 implements PriceMatrix {
+public class PriceMatrixImpl_v2 extends AbstractPriceMatrix {
 
 	public double getPrice(String item) {
 		// .........
