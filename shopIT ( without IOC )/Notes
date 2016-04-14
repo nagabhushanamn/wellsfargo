@@ -1,0 +1,12 @@
+
+
+ 
+ 
+  business-components
+  --------------------
+  
+  a. Billing : getTotalPrice(cart)  --> dependent
+  b. PriceMatrix : getPrice(item)   --> dependency
+  
+  
+     HAS-A 
