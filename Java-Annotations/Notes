@@ -1,0 +1,13 @@
+
+
+
+e.g
+----------
+
+
+vendor     : container appln  e.g tomcat
+
+           -> process incoming request(s) by components  
+         
+         
+appln-dev  : component(s)         

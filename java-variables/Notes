@@ -1,0 +1,83 @@
+
+
+java - variables
+----------------
+
+use
+
+-> to hold data
+
+
+
+types of variables based on 'data-type'
+--------------------------------------
+
+range formula = -2^n-1 to 2^n-1 -1
+
+a. simple/primary/primitives
+
+    1. signed
+    
+       i. integral
+       
+          byte   ( 8  )
+          short  ( 16 )
+          int    ( 32 )
+          long   ( 64 )
+       
+       ii. real
+       
+          float  ( 32 )
+          double ( 64 )
+    
+    2. un-signed
+    
+          char ( 16 )
+          
+          
+    3. boolean
+    
+          boolean  ( true | false ) ( 1 )
+
+
+b. reference
+
+    to hold obj's reference
+    
+    syntax
+    
+    Type ref=new Type();
+
+
+
+
+types of variables based on 'scope'
+--------------------------------------
+
+
+ a. class variable
+ b. object var
+ c. local var
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
