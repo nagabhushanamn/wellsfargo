@@ -1,0 +1,119 @@
+
+
+
+ process vs thread
+ 
+ 
+ process
+ 
+     --> whole execution in OS
+     --> each process has owm memory-area.
+     
+ thread
+ 
+     --> small-piece of execution in process.
+     --> all threads in a process can share same-memory.
+     
+     
+ -------------------------------------------
+ 
+ Java - Multi-Threading
+ 
+ 
+  	 splitting one java-process into small independent
+     child-process ( threads ).
+     
+     
+     why we need ?
+     
+     --> For rich user-experience
+     --> to utilize system resources.
+     
+ -------------------------------------------------
+ 
+ how to implement in java ?
+ 
+ using 'java.lang.Thread' class 
+ 
+ -------------------------------------------------
+ 
+ basic steps to create new-thread ?
+ 
+ --> create a instance of 'java.lang.Thread' class
+ --> assign work thru 'runnable' object.
+ --> start new-thread ( create new-stack )
+ --> manage thread-life-cycle
+ --> end rthread-life
+ 
+ --------------------------------------------------
+ 
+ 
+ 
+ how to schedule threads ?
+ 
+    sleep()
+    yield()
+    
+    join()
+    setPriority()
+ 
+ ----------------------------------------------------
+ 
+ 
+  Thread synchronization
+  -----------------------
+  
+  
+  locking resource for one-thread at a time.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+     
+     
+     
+     
+     
+             
