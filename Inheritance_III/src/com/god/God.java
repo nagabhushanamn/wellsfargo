@@ -1,6 +1,7 @@
 package com.god;
 
 import com.live.LivingThing;
+import com.live.human.Human;
 
 public class God {
 
@@ -20,5 +21,9 @@ public class God {
 		live.eat();
 		live.sleep();
 		live.walk();
+		if(live instanceof Human){
+			Human human=(Human)live;
+			human.study();
+		}
 	}
 }

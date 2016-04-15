@@ -1,0 +1,122 @@
+
+ data - structures
+ -----------------
+ 
+   memory organization to do CRUDSS oprns.
+   
+   
+   types
+   -------
+   
+   a. simple/primary
+   
+       e.g int a=12;
+    
+   b. secondary
+   
+      1. linear
+      
+          array
+          linkedlist
+          queue
+          stack
+          hashtable
+      
+      2. non-linear
+      
+          tree
+          graph
+         
+   ----------------------------------------
+   
+   Collection F.W
+   --------------
+   
+   defined/ready-made secondary DS impl from java community.
+   
+   
+   -----------------------------------------
+   
+   
+   types of collections in java
+   ----------------------------
+   
+   A. List
+   
+      --> indexed
+      --> ordered o/p
+      --> allow duplicates
+   
+   B. Set
+   
+      -> no index
+      -> unique
+      
+   C. Map
+   
+      -> Key + Value pair
+      
+       key   -> unique
+       value -> may duplicate  
+   
+   
+   -----------------------------
+   
+   collection F.W class(s)
+   -----------------------
+   
+   
+   A. List
+   
+      Vector          --> array  ( thread-safe )
+      ArrayList       --> array
+      LinkedList      --> DLL
+      Stack  extends Vector --> array ( LIFO )       
+   
+   
+   B. Set
+   
+      TreeSet  --> tree  ( natural order )
+      HashSet  --> hashtable ( un-ordered )
+      LinkedHashSet --> DLL+hashtable ( ordered )
+      
+   C. Map   
+   
+      TreeMap  --> tree  ( natural order )
+      HashMap  --> hashtable ( un-ordered )
+      LinkedHashMap --> DLL+hashtable ( ordered )
+      
+      Hashtable ( thread-safe )
+      
+   D. Queue
+   
+       -> PriorityQueue
+       -> Dequeue   
+   
+    ----------------------------------------------
+   
+   
+   
+    Collection F.W hierarchy
+    --------------------
+    
+    Top-Level - Interface
+    Middle-Level - Abstract-Class
+    Bottom-Level - Concrete class
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+          
+          

@@ -10,7 +10,7 @@ public abstract class LivingThing {
 		System.out.println("LT eat");
 	}
 
-	public void sleep() {
+	public final void sleep() {
 		System.out.println("LT sleep");
 	}
 
